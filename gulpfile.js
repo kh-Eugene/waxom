@@ -23,4 +23,4 @@ gulp.task('watch', function () {
     gulp.watch('./src/**/*.scss', ['sass', 'swig']);
 });
 
-gulp.task('default', ['sass', 'swig']);
+gulp.task('default', ['watch', 'sass', 'swig']);
